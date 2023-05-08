@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A64E720F-8317-465F-AB99-6FFA0505B25D}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azenix.Logic", "src\Azenix.Logic\Azenix.Logic.fsproj", "{F42014E6-E72A-45B6-8671-B3B764F9EF44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{478F00FC-AE8E-45F6-8934-CF9F3DFDAC4A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azenix.Logic.Tests", "test\Azenix.Logic.Tests\Azenix.Logic.Tests.fsproj", "{269DCB1D-44DA-42E8-BCCB-3DFC12BEE17E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azenix.Runner", "src\Azenix.Runner\Azenix.Runner.fsproj", "{38B92576-2D25-4BFE-93A3-921013785B22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionFiles", "solutionFiles", "{78611C7A-8CB6-4B35-AE7F-A00B12D01AFC}"
+	ProjectSection(SolutionItems) = preProject
+		programming-task.pdf = programming-task.pdf
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F42014E6-E72A-45B6-8671-B3B764F9EF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42014E6-E72A-45B6-8671-B3B764F9EF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42014E6-E72A-45B6-8671-B3B764F9EF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42014E6-E72A-45B6-8671-B3B764F9EF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269DCB1D-44DA-42E8-BCCB-3DFC12BEE17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269DCB1D-44DA-42E8-BCCB-3DFC12BEE17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269DCB1D-44DA-42E8-BCCB-3DFC12BEE17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269DCB1D-44DA-42E8-BCCB-3DFC12BEE17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B92576-2D25-4BFE-93A3-921013785B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B92576-2D25-4BFE-93A3-921013785B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B92576-2D25-4BFE-93A3-921013785B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B92576-2D25-4BFE-93A3-921013785B22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F42014E6-E72A-45B6-8671-B3B764F9EF44} = {A64E720F-8317-465F-AB99-6FFA0505B25D}
+		{269DCB1D-44DA-42E8-BCCB-3DFC12BEE17E} = {478F00FC-AE8E-45F6-8934-CF9F3DFDAC4A}
+		{38B92576-2D25-4BFE-93A3-921013785B22} = {A64E720F-8317-465F-AB99-6FFA0505B25D}
+	EndGlobalSection
+EndGlobal
