@@ -18,6 +18,6 @@ flexibility of the F# language. The logic for the application is separated into 
 2. Parsing the input
 3. Reporting the output
 
-It should be straight forward to create new parsers or readers as formats change from the provided exmaples.
+It should be straight forward to create new parsers or readers as formats change from the provided examples.
 
 
