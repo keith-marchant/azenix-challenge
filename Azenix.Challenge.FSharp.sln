@@ -15,7 +15,6 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Azenix.Runner", "src\Azenix
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionFiles", "solutionFiles", "{78611C7A-8CB6-4B35-AE7F-A00B12D01AFC}"
 	ProjectSection(SolutionItems) = preProject
-		programming-task.pdf = programming-task.pdf
 		README.md = README.md
 	EndProjectSection
 EndProject
